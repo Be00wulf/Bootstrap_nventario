@@ -1,0 +1,147 @@
+﻿body {
+    background-image: url('../img/md.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#BodyContent {
+    background-color: #45566B;
+}
+
+.encabezado {
+    background-color: #AC1F2D;
+}
+
+.textoSimple {
+    color: white;
+}
+
+.textoAzul {
+    color: #008B8B;
+}
+
+.textoResaltado {
+    color: black;
+}
+
+.alinDerecha {
+    text-align: right;
+}
+
+.alinCentro {
+    text-align: center;
+}
+
+.alinJustify {
+    text-align: justify;
+}
+
+.custom-table {
+    width: 100%; 
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+    .custom-table th, .custom-table td {
+        padding: 8px;
+        text-align: center; 
+    }
+
+    .custom-table th {
+        background-color: #f2f2f2;
+        font-weight: bold;
+    }
+
+.centered-cell {
+    text-align: center; 
+    vertical-align: middle; 
+    height: 100px; 
+}
+
+.container {
+    background-color: #212529;
+    padding: 15px;
+    width: 50%;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255, 223, 186, 0.4); /* Brillo dorado sutil */
+    max-width: 60px;
+    margin: 30px 30px;
+    text-align: center;
+    border: 2px solid rgba(212, 175, 55, 0.8); /* Borde con tono dorado */
+}
+
+    /* Para el efecto de brillo en hover */
+    .container:hover {
+        box-shadow: 0 0 25px rgba(255, 223, 186, 0.7); /* Incrementa el brillo dorado en hover */
+        border-color: rgba(255, 215, 0, 1); /* Color dorado más brillante al pasar el mouse */
+    }
+
+
+.info {
+    background-color: #708090;
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 600px;
+    margin: 20px 20px;
+    text-align: justify;
+}
+
+.content-section {
+    margin: 25px 0;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #212529;
+}
+
+    .content-section h1, .content-section h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+
+    .content-section .lead, .content-section p {
+        font-size: 16px;
+        color: white;
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+
+.btn-primary {
+    background-color: #4B5C76;
+    border-color: #08404F;
+    color: white;
+    padding: 10px 20px;
+    border-radius: unset;
+    text-decoration: none;
+}
+
+    .btn-primary:disabled {
+        background-color: #ADD8E6;
+        color: black;
+        cursor: not-allowed;
+    }
+
+.estilotxtBox {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 100%; 
+    padding: 7px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    margin: 10px 0;
+}
+
+/*No hay justificado automatico para listas*/
+ul.justified-list {
+    text-align: justify;
+    color: white;
+}
+
+    ul.justified-list li {
+        display: inline-block; 
+        width: 100%;
+        text-align: justify; 
+    }
+
+
